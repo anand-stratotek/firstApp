@@ -1,11 +1,31 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
 .App {
   color: black;
 }
 
 .header {
-  color: red;
+  color: rgb(255, 255, 255);
+  background-color: rgb(175, 114, 231);
+  height: 5vh;
+}
+
+.header li {
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.header ul {
+  display: flex;
+  justify-content: space-around;
 }
 
 .footer {
   color: blue;
+}
+
+.registration-form {
+  margin: 20px;
 }

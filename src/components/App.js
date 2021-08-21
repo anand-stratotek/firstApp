@@ -1,6 +1,7 @@
-import React, { Children } from 'react';
+import React from 'react';
 import Footer from './Footer';
 import Header from './Header';
+import Main from './Main';
 
 /*
 Assignment:-1
@@ -14,31 +15,13 @@ Footer(Below)-contact-links
 
 function App() {
   return (
-    <div className='App'>
-      This is my App component
-      <ul
-        style={{
-          color: 'blue',
-          margin: '10px',
-        }}
-      >
-        <li>
-          <Footer />
-        </li>
-        <li>
-          <Footer />
-        </li>
-        <li>
-          <Header />
-        </li>
-        <li>
-          <Header />
-        </li>
-        <li>
-          <Header />
-        </li>
-      </ul>
-    </div>
+    <>
+      <div className='App'>
+        <Header />
+        <Main />
+        <Footer />
+      </div>
+    </>
   );
 }
 
